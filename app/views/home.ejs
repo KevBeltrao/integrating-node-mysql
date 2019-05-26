@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+  </head>
+  <body>
+    <h1>Integrating Node.JS with mySQL</h1>
+    <div class="cards-container">
+      <% for(let i = 0; i < pessoas.length; i++) { %>
+        <div class="card">
+          <h1> <%= pessoas[i].nome %> </h1>
+          <ul>
+            <li><%= pessoas[i].idade %></li>
+            <li><%= pessoas[i].altura %></li>
+            <li><%= pessoas[i].nacionalidade %></li>
+          </ul>
+        </div>
+      <% } %>
+      </div>
+  </body>
+</html>

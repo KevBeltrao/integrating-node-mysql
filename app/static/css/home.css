@@ -1,0 +1,13 @@
+.cards-container {
+  width: 100%;
+  display: flex;
+}
+
+.card {
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  padding-left: 10px;
+}
